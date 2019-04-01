@@ -40,11 +40,11 @@ export declare abstract class BaseCachedImage<P extends CachedImageProps> extend
     componentWillUnmount(): void;
 }
 export declare class CachedImage extends BaseCachedImage<CachedImageProps> {
-    render(): any;
+    render(): JSX.Element;
 }
 export declare class CachedImageBackground extends BaseCachedImage<CachedImageProps> {
-    render(): any;
+    render(): JSX.Element;
 }
 export declare class CustomCachedImage<P extends CustomCachedImageProps> extends BaseCachedImage<P> {
-    render(): any;
+    render(): JSX.Element;
 }
